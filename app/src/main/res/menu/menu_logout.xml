@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mn_ble_shutdown"
+        android:icon="@drawable/ic_baseline_update_disabled_24"
+        android:title="@string/btn_shutdown"
+        app:showAsAction="always"
+        android:visible="false"/>
+    <item
+        android:id="@+id/mn_ble_disconnect"
+        android:icon="@drawable/ic_baseline_bluetooth_disabled_24"
+        android:title="@string/disconnect"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mn_logout"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="@string/lbl_logout"
+        app:showAsAction="always"/>
+
+</menu>

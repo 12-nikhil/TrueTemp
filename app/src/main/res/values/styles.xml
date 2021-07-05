@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="actionBarSize">50dp</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="IntroductionTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Rounded" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="colorAccent">@color/white</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="boxStrokeColor">@color/white</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="errorTextColor">@color/red</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/m_16</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/m_16</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/m_16</item>
+        <item name="boxCornerRadiusTopStart">@dimen/m_16</item>
+    </style>
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="errorTextColor">@color/red</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/m_16</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/m_16</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/m_16</item>
+        <item name="boxCornerRadiusTopStart">@dimen/m_16</item>
+    </style>
+    <style name="TextBackground" parent="AppTheme">
+        <item name="android:textSize">@dimen/s_20</item>
+    </style>
+    <style name="ButtonBackground">
+        <item name="android:background">@drawable/round_corner_button_white</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="MY.DIALOG" parent="AppTheme" >
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="TemperatureActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+    </style>
+</resources>

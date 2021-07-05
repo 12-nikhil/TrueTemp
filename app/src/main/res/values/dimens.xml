@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="s_24">24sp</dimen>
+    <dimen name="m_16">16dp</dimen>
+    <dimen name="s_20">20sp</dimen>
+    <dimen name="s_16">16sp</dimen>
+    <dimen name="m_10">10dp</dimen>
+    <dimen name="m_50">50dp</dimen>
+    <dimen name="m_100">100dp</dimen>
+    <dimen name="m_8">8dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_margin_nested">26dp</dimen>
+    <dimen name="text_large">25dp</dimen>
+    <dimen name="text_size_small">18dp</dimen>
+    <dimen name="m_5">5dp</dimen>
+    <dimen name="m_20">20dp</dimen>
+    <dimen name="m_40">40dp</dimen>
+    <dimen name="m_14">14dp</dimen>
+    <dimen name="s_18">18sp</dimen>
+    <dimen name="s_30">30sp</dimen>
+    <dimen name="s_40">40sp</dimen>
+    <dimen name="s_50">50sp</dimen>
+    <dimen name="s_60">60sp</dimen>
+    <dimen name="m_3">3dp</dimen>
+    <dimen name="prb_width_height">60dp</dimen>
+
+    <!-- welcome screen -->
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">60dp</dimen>
+    <dimen name="slide_title">30sp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="s_14">14sp</dimen>
+    <dimen name="s_12">12sp</dimen>
+    <dimen name="s_22">22sp</dimen>
+    <dimen name="m_30">30dp</dimen>
+    <dimen name="s_80">80sp</dimen>
+    <dimen name="s_70">70sp</dimen>
+</resources>

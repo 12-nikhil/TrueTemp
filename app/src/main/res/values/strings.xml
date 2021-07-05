@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">TruTemp</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="app_info">This project is open-source. The code is distributed under MIT license and available on Github following this link: https://github.com/aurasphere/blue-pair</string>
+    <string name="app_descrip">Simple app for handling Bluetooth discovery and pairing.</string>
+    <string name="device_discovery_started">Looking for nearby devices&#8230;</string>
+    <string name="device_already_paired">This device is already paired!</string>
+    <string name="device_pairing_success">Device successfully paired!</string>
+    <!--<string name="enabling_bluetooth">Turning on Bluetooth and looking for devices&#8230;</string>-->
+    <string name="enabling_bluetooth">Turn on your bluetooth and pair with device.</string>
+    <string name="device_discovery_stopped">Device discovery cancelled</string>
+    <string name="empty_list_message">No nearby devices found. Tap on the bottom-right button to start a new device discovery.</string>
+    <string name="bluetooth_not_available_message">\nIt seems that this device doesn\'t have a Bluetooth controller available.\nBluetooth Pair works only with Bluetooth, so please try again on a different device. \nThe app will be now terminated.</string>
+    <string name="bluetooth_not_available_title">Bluetooth not available</string>
+    <string name="title_activity_main2">MainActivity</string>
+
+    <string name="title_activity_paired_device">Paired Device</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="no_messages">No messages sent!</string>
+    <string name="no_bluetooth">Bluetooth not available.</string>
+    <string name="device_name_format">Device: %1$s</string>
+    <string name="status_connecting">Connecting to %1$s.... </string>
+    <string name="status_connected">Connected to %1$s </string>
+    <string name="status_disconnected">Disconnected from %1$s</string>
+    <string name="connect">Connect</string>
+    <string name="connected">Connected</string>
+    <string name="disconnect">Disconnect</string>
+    <!--<string name="connection_failed">Connection Failed.</string>-->
+    <string name="bluetooth_unavailable">Connection Failed.</string>
+    <string name="message_send_error">Error sending message!</string>
+    <string name="you_sent">You</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_communication">Communication</string>
+    <!--    <string name="prompt_email">Email</string>-->
+    <!--    <string name="prompt_password">Password</string>-->
+    <!--    <string name="action_sign_in">LOG IN</string>-->
+    <!--    <string name="action_sign_in_short">Sign in</string>-->
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="msg_no_internet">No Internet Connection</string>
+    <string name="msg_check_server_connection">Check Server Connection..</string>
+    <string name="msg_login_failed">Login Failed</string>
+    <string name="msg_login_success">Login Successful</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_sensor_id">Sensor </string>
+    <string name="lbl_alarm_low">Alarm Low - </string>
+    <string name="lbl_alarm_levels">Alarm</string>
+    <string name="lbl_low">Low</string>
+    <string name="lbl_High">High</string>
+    <string name="lbl_warning_levels">Warning Levels</string>
+    <string name="lbl_alarm_high">Alarm High - </string>
+    <string name="lbl_warning_low">Warning Low</string>
+    <string name="lbl_warning_high">Warning High</string>
+    <string name="lbl_update_frequency">Update Frequency</string>
+    <string name="lbl_repeat_frequency">Frequency</string>
+    <string name="msg_not_connected">Not Connected</string>
+    <string name="status_connection_lost">Connection Lost</string>
+    <string name="status_connection_failed">\nConnection Failed.\n\nMake sure your Bluetooth device is ON.\n\nIf it is ON,then PRESS device RESET Button.</string>
+   <!-- <string name="status_connection_failed"><![CDATA[
+   </br></br>Connection Failed</br></br> Make sure your Bluetooth device is <b>ON</b></br></br>
+   If it is <b>ON</b>,then <b>PRESS RESET</b>.]]></string>-->
+    <string name="lbl_temperature">Temperature</string>
+    <string name="msg_permission_not_granted">Permission not granted</string>
+    <string name="lbl_logout">Logout</string>
+    <string name="title_assets">Assets Info</string>
+    <string name="msg_exit_app">Are you sure you want to closed the app?</string>
+    <string name="msg_exit_screen">Are you sure you want to exit from screen?</string>
+    <string name="lbl_confirmation">Confirmation</string>
+    <string name="msg_logout">\nAre you sure you want to logout from the app?\n</string>
+    <string name="msg_something_went_wrong">Something went wrong,Please try again</string>
+    <string name="title_activity_graph">Temperature Graph</string>
+    <string name="lbl_connect">Connect</string>
+    <string name="msg_disconnect">"Are you sure you want to disconnect Bluetooth?"</string>
+    <string name="lbl_warning">Warning</string>
+    <string name="lbl_alert_message">Alert Message</string>
+    <string name="msg_registered_mobile_number_not_same">Register number and device number not match!!! Contact your admin</string>
+    <string name="lbl_error_message">Error Message</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome to TruMonitor</string>
+    <string name="slide_1_desc">Intelligent Temperature Monitor</string>
+
+    <string name="slide_2_title">Monitor</string>
+    <string name="slide_2_desc">Real time monitoring via app</string>
+    <string name="search_hint">Search asset</string>
+    <string name="action_start_reading">Start Temperature Reading</string>
+    <string name="lbl_colon">:</string>
+    <string name="lbl_save">Save</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="btn_set">Set</string>
+    <string name="lbl_note">Note: Alarm low value should be less than warning low,warning high and alarm high</string>
+    <string name="lbl_frequency">(hh:mm:ss)</string>
+    <string name="action_continue">Continue</string>
+    <string name="msg">Message</string>
+    <string name="msg_app_ready_to_use">Now, app is ready to receive temperature data.\n\n Do you want to continue?</string>
+    <string name="btn_shutdown">Shutdown</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="msg_stop_reading">\nAre you sure you want to stop recording temperature data?\n</string>
+    <string name="lbl_no_data">No data found</string>
+    <string name="action_send">Send Sensor data</string>
+    <string name="msg_reset_bluetooth">Something went wrong.\n\nPlease PRESS device RESET Button.</string>
+    <string name="msg_reset_button_pressed">Something went wrong.\n\nPlease PRESS device RESET Button.</string>
+    <string name="msg_bluetooth_disconnected">Bluetooth disconnected</string>
+    <string name="msg_no_data_found">No data found</string>
+    <string name="default_notification_channel_id">com.softwise.truetemp.channel</string>
+    <string name="lbl_temperature_recording">Temperature Recoding On</string>
+    <!-- below array is just for testing -->
+    <string-array name="assets_array">
+        <item>Assets 1</item>
+        <item>Assets 2</item>
+        <item>Assets 3</item>
+        <item>Assets 4</item>
+        <item>Assets 5</item>
+        <item>Assets 6</item>
+        <item>Assets 7</item>
+        <item>Assets 8</item>
+    </string-array>
+    <string name="text_name_notification">Notification Name</string>
+    <string name="permission_not_granted_msg">Permissions required to make app features work, exiting app</string>
+
+</resources>
